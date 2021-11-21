@@ -1,5 +1,5 @@
 # Minimum bug reproduction
-
+ -Controllers not mapped
 # Setup
 
 1) npm install
