@@ -1,0 +1,47 @@
+{
+  "name": "mycommunity",
+  "version": "1.0.9",
+  "description": "My Community Project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-dev --no-deps --no-warnings index.js"
+  },
+  "engines": {
+    "node": ">= 9.2",
+    "npm": ">= 6.1.0"
+  },
+  "author": "Shady Khalifa <shekohex@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^1.2.0",
+    "@nest-middlewares/helmet": "^5.1.1",
+    "@nestjs/common": "^8.2.0",
+    "@nestjs/core": "^8.2.0",
+    "@nestjs/mongoose": "^9.0.1",
+    "@nestjs/platform-express": "^8.2.0",
+    "@nestjs/swagger": "^5.1.4",
+    "@nestjs/typeorm": "^8.0.2",
+    "@nestjs/websockets": "^8.2.0",
+    "class-transformer": "^0.5.0",
+    "class-validator": "^0.13.2",
+    "dotenv": "^6.2.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.4.0",
+    "typeorm": "^0.2.41"
+  },
+  "devDependencies": {
+    "@types/bull": "^3.15.5",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^10.17.60",
+    "node-dev": "^7.1.0",
+    "rimraf": "^2.7.1",
+    "thread-loader": "^2.1.3",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^5.0.1",
+    "tsconfig-paths": "^3.11.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "typescript": "^4.4.4"
+  }
+}
